@@ -1,0 +1,6 @@
+name: D8 basic module!
+type: module
+description: This is a basic D8 module.
+core: 8.x
+package: Heilop
+version: 1.0

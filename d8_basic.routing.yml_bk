@@ -1,0 +1,7 @@
+d8_basic.mypage:
+  path: '/mypage'
+  defaults:
+    _controller: '\Drupal\d8_basic\Controller\MyPageController::customPage'
+    _title: 'My custom page'
+  requirements:
+    _permission: 'view content'
