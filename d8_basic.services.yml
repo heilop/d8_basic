@@ -1,0 +1,5 @@
+services:
+  d8_basic.route_suscriber:
+    class: Drupal\d8_basic\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

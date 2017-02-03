@@ -25,6 +25,21 @@
         ]
       );
 
+
+      // Create my-page/{name} route programmatically.
+      $routes['d8_basic.paths'] = new Route(
+        // Path definition with name argument.
+        'my-page/{name}',
+        [
+          '_controller' => '\Drupal\d8_basic\Controller\MyPageController::paths',
+        ],
+        // Route requirements.
+        [
+          '_permission' => 'access content', // Permissions.
+          'name' => '[a-zA-Z]+', // Filter for name arguments.
+        ]
+      );
+
       return $routes;
     }
   }
