@@ -1,0 +1,3 @@
+view d8_basic pages:
+  title: 'View d8 basic pages'
+  description: 'Allows users to view pages provided by D8 Basic Module'

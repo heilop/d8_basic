@@ -21,7 +21,7 @@
         ],
         // Route requirements.
         [
-          '_permission' => 'access content',
+          '_permission' => 'view d8_basic pages',
         ]
       );
 
@@ -35,7 +35,7 @@
         ],
         // Route requirements.
         [
-          '_permission' => 'access content', // Permissions.
+          '_permission' => 'view d8_basic pages', // Permissions.
           'name' => '[a-zA-Z]+', // Filter for name arguments.
         ]
       );
